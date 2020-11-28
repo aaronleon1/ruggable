@@ -1,10 +1,12 @@
 .row{
   .columns{
     padding-bottom: 0 !important;
+    padding-top: 0 !important;
   }
 }
 .suggested-header{
   .columns{
+    padding-top: 8px !important;
     p{
       font-size: 22px !important;
       color: #222;
@@ -14,74 +16,76 @@
 }
 .suggestions-one{
   .columns{
-    padding-top: 0!important;
     a{
+      img{
+        padding-bottom: 4px;
+      }
+    }
+    
+    .rug-text{
       max-width: 100%;
       color: #000;
       font-weight: normal;
       text-decoration: none;
-
+      font-size: 13px;
       font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-      padding: 8px !important;
+      padding: 4px !important;
+      margin: 8px !important;
       
     }
   }
+  
 }
 
 .suggestions-two{
   .columns{
-    padding-top: 0 !important;
+    padding-top: 4px !important;
     a{
+      img{
+        padding-bottom: 4px;
+      }
+    }
+    .rug-text{
       max-width: 100%;
       color: #000;
       font-weight: normal;
       text-decoration: none;
-
+      font-size: 13px;
       font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-      padding: 8px !important;
+      padding: 4px !important;
+      margin: 8px !important;
     }
     
   }
+  
 }
 .footer-social-imgs{
   .columns{
-    padding-top: 10px !important;
-    /*
+    padding-top: 10px !important; 
     a{
-      
-      img{
-        border: 0;
-        height: auto;
-        line-height: 100%;
-        max-width: 100%;
-        outline: none;
-        text-decoration: none;
-       
-        display: block;
-      }
-    
-    
-      .twitter{
-        width:68px !important;
-        border: 0;
-        height: 68px ;
-        line-height: 100%;
-        
-        outline: none;
-        text-decoration: none;
-        display: block;
-      }
+      display: inline-block;
+      margin: 0 !important;
+      padding: 0 !important;
     }
-    */
+    
   }
 }
 
 .footer-text{
   .columns{
+    padding-top: 24px !important;
     p{
-      font-size: 10px;
-      color: #a9a9a9;
-      font-family: Slack-Lato,appleLogo,sans-serif;
+      color: #727272;
+      font-family: "Helvetica Neue",Arial;
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 1.3;
+      text-align: center;
+      word-wrap: break-word;
+      span{
+        font-size: 10px;
+        color: #a9a9a9;
+      }
     }
   }
 }
