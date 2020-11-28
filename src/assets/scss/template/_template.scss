@@ -1,59 +1,87 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
+.row{
+  .columns{
+    padding-bottom: 0 !important;
+  }
+}
+.suggested-header{
+  .columns{
+    p{
+      font-size: 22px !important;
+      color: #222;
+      line-height: 1.3 !important;
+    }
+  }
+}
+.suggestions-one{
+  .columns{
+    padding-top: 0!important;
+    a{
+      max-width: 100%;
+      color: #000;
+      font-weight: normal;
+      text-decoration: none;
 
-// Body Styles 
-body,
-html, 
-.body {
-  background: #f3f3f3 !important;
+      font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+      padding: 8px !important;
+      
+    }
+  }
 }
 
-.container.header {
-  background: #f3f3f3;
+.suggestions-two{
+  .columns{
+    padding-top: 0 !important;
+    a{
+      max-width: 100%;
+      color: #000;
+      font-weight: normal;
+      text-decoration: none;
+
+      font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+      padding: 8px !important;
+    }
+    
+  }
+}
+.footer-social-imgs{
+  .columns{
+    padding-top: 10px !important;
+    /*
+    a{
+      
+      img{
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        max-width: 100%;
+        outline: none;
+        text-decoration: none;
+       
+        display: block;
+      }
+    
+    
+      .twitter{
+        width:68px !important;
+        border: 0;
+        height: 68px ;
+        line-height: 100%;
+        
+        outline: none;
+        text-decoration: none;
+        display: block;
+      }
+    }
+    */
+  }
 }
 
-.body-drip {
-  border-top: 8px solid #663399;
-}
-
-// Full Width Headers
-.header {
-  background: #8a8a8a;
-}
-
-.header .columns {
-  padding-bottom: 0;
-}
-
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
-
-.header .wrapper-inner {
-  padding: 20px;
-}
-
-.header .container {
-  background: transparent;
-}
-
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
+.footer-text{
+  .columns{
+    p{
+      font-size: 10px;
+      color: #a9a9a9;
+      font-family: Slack-Lato,appleLogo,sans-serif;
+    }
+  }
 }
